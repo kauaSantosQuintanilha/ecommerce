@@ -1,0 +1,21 @@
+meta {
+  name: criarUsuario
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:8080/user
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"dia",
+    "email":"dia@senai.com",
+    "password":"dia123"
+    
+    
+  }
+}
